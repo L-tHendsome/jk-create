@@ -1,4 +1,4 @@
-/* jk.Create: фильтры, поиск, избранное, вкладки, окно заявки. */
+/* Jk's 3D Farm: фильтры, поиск, избранное, вкладки, окно заявки. */
 (function () {
 	'use strict';
 
@@ -235,7 +235,7 @@
 			var f = staticForm.elements;
 			var setText = f.set_id.options[f.set_id.selectedIndex].textContent.trim();
 			var text = [
-				'Заявка с сайта jk.Create',
+				'Заявка с сайта Jk\'s 3D Farm',
 				'Имя: ' + f.name.value,
 				'Контакт: ' + f.contact.value,
 				'Набор: ' + setText,
